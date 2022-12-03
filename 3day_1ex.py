@@ -4,12 +4,11 @@ with open("input.txt") as f:
     new_lines = []
     for line in lines:
         new_lines.append(line.replace('\n', ''))
-    for i in range(len(new_lines)):
-        if (i+1) % 3 == 0:
-            for x in new_lines[i]:
-                if x in new_lines[i-1] and x in new_lines[i-2]:
-                    total += x
-                    break
+    for l in new_lines:
+        for i in range(0, len(l)//2):
+            if l[i] in l[len(l)//2:]:
+                total += l[i]
+                break
 
     totalScore = 0
     print(len(total))
