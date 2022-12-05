@@ -44,8 +44,7 @@ with open("input.txt") as f:
 
         to_int = int(i[len(i)-1: len(i)])
 
-        slice = stackList[from_int-1][len(stackList[from_int-1])-counter:len(stackList[from_int-1])]
-        stackList[to_int-1] = stackList[to_int-1] + slice
-        stackList[from_int-1] = stackList[from_int-1][0:len(stackList[from_int-1])-counter]
+        for j in range(counter):
+            stackList[to_int-1].append(stackList[from_int-1].pop())
 
     print(stackList)
