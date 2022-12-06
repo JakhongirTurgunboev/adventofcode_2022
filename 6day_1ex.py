@@ -4,11 +4,12 @@ with open("input.txt") as f:
     new_lines = []
     counter = 0
     for line in lines:
+        print(len(line))
         while counter in range(len(line)):
             if line[counter] not in new_lines:
                 new_lines.append(line[counter])
                 counter += 1
-                if len(new_lines) == 14:
+                if len(new_lines) == 4:
                     print(counter)
                     break
             else:

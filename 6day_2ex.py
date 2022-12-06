@@ -15,5 +15,3 @@ with open("input.txt") as f:
                 index = new_lines.index(line[counter])
                 counter -= ((len(new_lines)-1) - index)
                 new_lines = []
-
-
