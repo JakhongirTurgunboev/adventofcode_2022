@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93d1c470-ada5-40f8-846d-492f968d114c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/6day.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6day_1ex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7day.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7day_1ex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7day_2ex.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
